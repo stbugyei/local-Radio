@@ -1,0 +1,131 @@
+.humburger-content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 46px;
+	height: 32px; 
+	cursor: pointer;
+	border: 2px solid transparent;
+	background: transparent;
+}
+
+.close-background {
+	position: absolute;
+	top: -12px;
+	right: -4px;
+	width: 50px;
+	height: 50px; 
+	z-index: -1000;
+	border: 2px solid #61045f;
+	background-color: transparent;
+	transform-origin: right top;
+	outline: none;
+	border-radius: 50%;
+}
+
+.menu-background {
+	position: absolute;
+	top: -12px; 
+	right: -4px;
+	width: 50px;
+	height: 50px;
+	z-index: -1000;
+	border: 2px solid #61045f;
+	background-color: transparent;
+	outline: none;
+	border-radius: 50%;
+}
+
+.hamburger-item,
+.hamburger-items {
+	position: relative;
+	width: 30px;
+	/* height: 19px; */
+	height: 19px;
+	cursor: pointer;
+	border-radius: 2px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background: transparent;
+}
+
+.hamburger-item span,
+.hamburger-items span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	display: block;
+	background: transparent;
+	transition: all .3s ease-in-out;
+}
+
+.hamburger-items span:nth-child(1),
+.hamburger-items span:nth-child(2),
+.hamburger-items span:nth-child(3) {
+	position: absolute;
+	height: 3px;
+	display: block;
+	border-radius: 10px;
+	color: #61045f;
+	background-color: #61045f;
+}
+
+.hamburger-items span:nth-child(1) {
+	top: 0;
+	width: 100%;
+	animation: menuwidth .2s;
+}
+
+.hamburger-items span:nth-child(2) {
+	width: 100%;
+	animation: menuwidth .4s;
+}
+
+.hamburger-items span:nth-child(3) {
+	top: 16px;
+	width: 100%;
+	animation: menuwidth .6s;
+}
+
+.hamburger-item span:nth-child(1),
+.hamburger-item span:nth-child(2) {
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	display: block;
+	border-radius: 10px;
+	color: red;
+	background-color: red;
+}
+
+.hamburger-item span:nth-child(1) {
+	top: 0;
+	transform-origin: 0px;
+	transform: rotate(33deg);
+	left: 3px;
+	animation: menuwidth .6s;
+}
+
+.hamburger-item span:nth-child(2) {
+	top: 16px;
+	left: 3px;
+	transform-origin: 0px;
+	transform: rotate(-33deg);
+	animation: menuwidth .4s;
+}
+
+/* humburger animations for swapping the spans */
+
+@keyframes menuwidth {
+	100% {
+		width: 100%;
+	}
+	0% {
+		width: 0;
+	}
+}
