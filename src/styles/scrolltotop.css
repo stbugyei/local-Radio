@@ -1,0 +1,33 @@
+.scroll {
+	position: fixed;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	left: 95%;
+	top: 90%;
+	border-radius: 50%;
+	outline: none;
+	border: 2px solid orangered;
+	cursor: pointer;
+	z-index: 99;
+    transform-origin: top;
+    background-color: #fff;
+	transition: all .2s;
+}
+
+.scroll i {
+	color:orangered;
+	font-size: 20px;
+}
+
+@media (min-width:  481px) and (max-width: 768px) {
+	.scroll {
+		left: 93%
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.scroll {
+		left: 86%
+    }
+}

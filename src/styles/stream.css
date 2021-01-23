@@ -296,6 +296,10 @@
 	.hamburger-annex {
 		left: 256px;
 	}
+
+	.popular__card a{
+		font-size: 18px;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {

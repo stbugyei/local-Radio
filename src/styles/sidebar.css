@@ -30,8 +30,7 @@
 .sidebar-wrapper {
 	position: absolute;
 	width: 0;
-	height: 0;
-	max-height: 1198px;
+	height: 100%;
 	top: 0;
 	left: 0;
 	z-index: 1;

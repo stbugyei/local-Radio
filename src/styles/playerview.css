@@ -236,7 +236,7 @@
 }
 
 .btn-store1:hover {
-	background-image: linear-gradient(to right top, #d8310c, #ff4500, #e22421,  #ff4500,  #ff4500);
+	background-image: linear-gradient(to right top, #d8310c, #ff4500, #e22421, #ff4500, #ff4500);
 	transition: all .4s;
 }
 
@@ -252,7 +252,7 @@
 }
 
 .btn-store:hover {
-	background-image: linear-gradient(to right top, #d8310c, #ff4500, #e22421,  #ff4500,  #ff4500);
+	background-image: linear-gradient(to right top, #d8310c, #ff4500, #e22421, #ff4500, #ff4500);
 }
 
 /* default styles from the player library */
@@ -349,6 +349,10 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
 	.player-wrapper {
-		width: 90%;
+		width: 100%;
+		top: initial;
+		right: initial;
+		transform: translate(0%, 0%);
+		border-radius: initial;
 	}
 }

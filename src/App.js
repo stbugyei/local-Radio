@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import FavouriteList from "./components/FavouriteList";
 import Home from "./components/Home";
 import PlayerView from "./components/PlayerView";
+import ScrollToTop from "./components/ScrollToTop";
 import streamInfor from './components/streamsInfo'
 
 const App = () => {
@@ -25,8 +26,8 @@ const App = () => {
 
   //=========== function to change selected options =======================
   const inputText = (input) => {
-    setText(input)
-    setQuery(input)
+    setText(input);
+    setQuery(input);
   }
 
 
@@ -39,21 +40,24 @@ const App = () => {
 
     <div className="header">
       <div className="container">
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              <Home inputText={inputText} text={text} query={query} onInputChange={onInputChange} queriedStream={queriedStream} popularSelected={popularSelected} />
-            </Route>
+        <>
+          <Router>
+            <Switch>
+              <Route exact path="/">
+                <Home inputText={inputText} text={text} query={query} onInputChange={onInputChange} queriedStream={queriedStream} popularSelected={popularSelected} />
+              </Route>
 
-            <Route path="/stream/:id">
-              <PlayerView popularSelected={popularSelected} />
-            </Route>
+              <Route path="/stream/:id">
+                <PlayerView popularSelected={popularSelected} />
+              </Route>
 
-            <Route path="/favouriteList">
-              <FavouriteList />
-            </Route>
-          </Switch>
-        </Router>
+              <Route path="/favouriteList">
+                <FavouriteList />
+              </Route>
+            </Switch>
+          </Router>
+        </>
+        <ScrollToTop />
       </div>
     </div>
   );
