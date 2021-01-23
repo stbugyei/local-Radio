@@ -14,7 +14,7 @@ const ScrollToTop = () => {
     const scrollPosition = () => {
         window.pageYOffset > 400 ? setDisplay(true) : setDisplay(false);
     }
-
+    
     //========== A Style function to change the visibility of the scroll button ===========//
     const scrollVisibility = () => {
         return { transform: display ? 'scale(1)' : 'scale(0)' };

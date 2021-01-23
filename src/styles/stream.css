@@ -263,6 +263,11 @@
 		border-radius: 0px;
 	}
 
+	.stream-wrapper {
+		padding:initial; 
+
+	}
+
 	.stream-container {
 		padding: 0;
 	}

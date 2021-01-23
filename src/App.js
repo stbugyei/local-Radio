@@ -14,7 +14,6 @@ const App = () => {
 
 
   //================ Search function for radiostreams ==================
-
   const queriedStream = streamData.filter(radiostations => (radiostations.name.toLowerCase().includes(query.toLowerCase()) || radiostations.language.toLowerCase().includes(query.toLowerCase()) || radiostations.location.toLowerCase().includes(query.toLowerCase()) || radiostations.genre.toLowerCase().includes(query.toLowerCase())));
 
 
@@ -22,12 +21,13 @@ const App = () => {
     const userInput = e.target.value;
     setQuery(userInput)
   }
-
+  
 
   //=========== function to change selected options =======================
   const inputText = (input) => {
     setText(input);
     setQuery(input);
+    // media();
   }
 
 

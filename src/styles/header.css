@@ -243,7 +243,7 @@
 		overflow: hidden;
 		white-space: nowrap;
 		transform: translate(50%, -50%);
-		top: 33rem;
+		top: 395px;
 		display: block;
 		background-color: #fff;
 		border-radius: 25px;
@@ -254,6 +254,7 @@
 
 	.header-main {
 		white-space: normal;
+		border-radius: 0px;
 	}
 
 	.header-main__text {
@@ -273,6 +274,7 @@
 		border-radius: 4px;
 		background-color: hsla(0, 0%, 100%, .49);
 		text-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+		display: none;
 	}
 
 	.header-main__p2 {
@@ -306,19 +308,20 @@
 
 	.logo {
 		font-size: 16px;
-		margin-left: 50px;
+		margin-left: 60px;
 	}
 
 	.title-search__btn,
 	.title-search__btn1 {
 		margin-top: 8px;
+		margin-right: 5px;
 	}
 
 	.title-search1 {
 		position: absolute;
 		white-space: nowrap;
 		font-size: 18px;
-		top: 106%;
+		top: 103%;
 		right: 50%;
 		transform: translate(50%, -50%);
 	}
