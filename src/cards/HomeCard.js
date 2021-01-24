@@ -10,10 +10,13 @@ const HomeCard = (props) => {
 
     let initialData = streamInfor.filter(radiostations => (radiostations.name)).sort(() => Math.random() - 0.5).slice(0, 5);
 
+     //========== Onclick function to move the page to the top ===========//
+     const scrollTotop = () => { window.scrollTo({ top: 0, behavior: 'smooth' }) }
+
     const searchDisplay = queriedStream.map((name) => {
         return (
 
-            <div className={isopen ? 'stream-content__card1' : 'stream-content__card'} key={name.id} >
+            <div className={isopen ? 'stream-content__card1' : 'stream-content__card'} key={name.id} onClick={scrollTotop}>
                 <Link key={name.id} to={{
                     pathname: `/stream/${name.id}`,
                     state: { streamInfor }
@@ -38,7 +41,7 @@ const HomeCard = (props) => {
     const initialDisplay = initialData.map((name) => {
         return (
 
-            <div className={isopen ? 'stream-content__card1' : 'stream-content__card'} key={name.id} >
+            <div className={isopen ? 'stream-content__card1' : 'stream-content__card'} key={name.id} onClick={scrollTotop}>
                 <Link key={name.id} to={{
                     pathname: `/stream/${name.id}`,
                     state: { streamInfor }
