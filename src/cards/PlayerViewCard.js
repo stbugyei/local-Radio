@@ -16,8 +16,8 @@ const PlayerViewCard = (props) => {
             <div className="content-recommend">
                 <div className="player-content">
                     <div className="logo1">
-                        <li className="logo1-text">StBugyei☻</li>
-                        <li><span style={{ color: ' orangered' }}>Bruce</span> Online Streaming Radio</li>
+                        <li className="logo1-text"><span style={{ color: 'orangered' }}>Bruce</span> Radio</li>
+                        <li><span style={{ color: 'orangered' }}>Bruce</span> Online Streaming Radio</li>
                     </div>
                     <div className="player-nav">
                         <li className="logo1-btn" onClick={handleClick}><i className="fas fa-arrow-left"></i> Go Home</li>

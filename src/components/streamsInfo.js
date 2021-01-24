@@ -16,7 +16,7 @@ const radiostations = [
     {
         id: "197402",
         name: "Peace FM",
-        stream: "http://peacefm.atunwadigital.streamguys1.com/peacefm",
+        stream: "https://peacefm-atunwadigital.streamguys1.com/peacefm?amsparams=playerid%3ASGplayer%3Bskey%3A1611468493100%3B&awparams=playerid%3ASGplayer%3Bplayerid%3ASGplayer%3Bplayerid%3ASGplayer%3B&us_privacy=1YNN&us_privacy=1YNN&us_privacy=1YNN",
         stream_1: "https://peacefm-atunwadigital.streamguys1.com/peacefm?amsparams=playerid%3ASGplayer%3Bskey%3A1609837847464%3B&awparams=playerid%3ASGplayer%3B&aw_0_req.gdpr=true&us_privacy=1YNN",
         website: "https://www.peacefmonline.com/",
         frequency: "104.3",
@@ -884,7 +884,7 @@ const radiostations = [
     {
         id: "197464",
         name: "Citi Fm",
-        stream: "http://188.165.192.5:8977/stream",
+        stream: "https://node-02.zeno.fm/g6zrd965puquv?rj-ttl=5&rj-tok=AAABdzMGxHkA0gChlANYeag7xg",
         stream_1: "https://citi973fm.radioca.st/stream/1/",
         website: "https://citifmonline.com/",
         Frequency: "97.3",

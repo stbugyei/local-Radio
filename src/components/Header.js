@@ -24,7 +24,8 @@ const Header = (props) => {
     return (
         <div className="header-wrapper">
             <div className="header-banner">
-                <div className="logo" >StBugyei☻</div>
+                {/* <div className="logo" >StBugyei☻</div> */}
+                <div className="logo" > <span style={{ color: 'orangered' }}>Bruce</span> Radio</div>
 
                 {query === 'undefined' || query === '' ? '' : <div className="header-title__search" ><span style={{ color: 'orangered' }}>{query}</span> <span>Radio Station</span></div>}
 
@@ -41,7 +42,7 @@ const Header = (props) => {
                 <div className="header-main__text">
                     <ul>
                         <li>
-                            <h1>Popular online streaming radio</h1>
+                            <h1 className="header-main__text1">Popular online streaming radio</h1>
                             <h1>and Fm stations in Ghana.</h1>
                         </li>
 
