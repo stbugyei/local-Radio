@@ -44,7 +44,7 @@ const FavouriteCard = (props) => {
                 </div>
 
                 <Link to={{ pathname: `/stream/${fm.id}` }}>
-                    <button className="fav-btn__discover"> Listern Live </button>
+                    <button className="fav-btn__discover"> Listen Live </button>
                 </Link>
             </div>
         </>
