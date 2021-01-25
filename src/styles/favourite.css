@@ -294,7 +294,7 @@ ul.popup-content li p {
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
-	border: 2px solid#fff;
+	border: 2px solid #fff;
 	color: #fff;
 	border-radius: 20px;
 	text-decoration: none;
@@ -363,8 +363,11 @@ ul.popup-content li p {
 		right: 18px;
 		width: 35px;
 		height: 35px;
+		color: orangered;
 		padding: 7px;
 		border-radius: 25px;
+		text-shadow: none;
+		border-color: orangered;
 	}
 
 	.fav-back i {

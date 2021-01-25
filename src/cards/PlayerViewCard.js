@@ -17,10 +17,10 @@ const PlayerViewCard = (props) => {
                 <div className="player-content">
                     <div className="logo1">
                         <li className="logo1-text"><span style={{ color: 'orangered' }}>Bruce</span> Radio</li>
-                        <li><span style={{ color: 'orangered' }}>Bruce</span> Online Streaming Radio</li>
+                        <li> <span className="title-search1"> <span style={{ color: 'orangered' }}>Streaming</span> Live From Ghana</span> </li>
                     </div>
                     <div className="player-nav">
-                        <li className="logo1-btn" onClick={handleClick}><i className="fas fa-arrow-left"></i> Go Home</li>
+                        <li className="logo1-btn" onClick={handleClick}><i className="fas fa-home"></i> Go Home</li>
                         <li className="logo1-btn" onClick={handleFavourite}>Favourites</li>
                     </div>
                     <div className="player-content__items">

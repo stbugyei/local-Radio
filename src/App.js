@@ -27,7 +27,6 @@ const App = () => {
   const inputText = (input) => {
     setText(input);
     setQuery(input);
-    // media();
   }
 
 

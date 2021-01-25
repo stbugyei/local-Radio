@@ -163,7 +163,7 @@
 	bottom: 16px;
 	width: 100%;
 	height: 2px;
-	background-color: orangered;
+	background-color: #606;
 	box-shadow: 10px 0px 14px 0px rgba(00, 00, 00, 0.2);
 	z-index: 6;
 }
@@ -258,7 +258,7 @@
 	}
 
 	.header-main::before {
-		display: none;
+		/* display: none; */
 	}
 
 	.header-main__text {

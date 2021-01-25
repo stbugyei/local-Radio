@@ -604,8 +604,8 @@ const radiostations = [
     {
         id: "197444",
         name: "Oman Fm",
-        stream: "http://omanfm.atunwadigital.streamguys1.com/omanfm",
-        stream_1: "",
+        stream: "https://omanfm-atunwadigital.streamguys1.com/omanfm?amsparams=playerid%3ASGplayer%3Bskey%3A1611555812774%3B&awparams=playerid%3ASGplayer%3Bplayerid%3ASGplayer%3Bplayerid%3ASGplayer%3B&aw_0_req.gdpr=true&us_privacy=1YNN&aw_0_req.gdpr=true&us_privacy=1YNN&aw_0_req.gdpr=true&us_privacy=1YNN",
+        stream_1: "http://omanfm.atunwadigital.streamguys1.com/omanfm",
         website: "https://www.omanfm1071.com/",
         Frequency: "107.1",
         location: "Accra",

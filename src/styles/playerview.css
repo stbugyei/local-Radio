@@ -1,5 +1,5 @@
 .player-wrapper {
-	width: 50%;
+	width: 60%;
 	position: absolute;
 	top: 50%;
 	right: 50%;
@@ -352,5 +352,14 @@
 		right: initial;
 		transform: translate(0%, 0%);
 		border-radius: initial;
+	}
+}
+
+@media  screen and (min-width: 1920px) {
+	.player-wrapper {
+		top: initial;
+		right: initial;
+		transform: translate(0%, 0%);
+		margin: 2% auto;
 	}
 }

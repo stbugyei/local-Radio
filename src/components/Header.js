@@ -30,7 +30,7 @@ const Header = (props) => {
                 {query === 'undefined' || query === '' ? '' : <div className="header-title__search" ><span style={{ color: 'orangered' }}>{query}</span> <span>Radio Station</span></div>}
 
                 <div className="title-search">
-                    <span className="title-search1"> <span style={{ color: 'orangered' }}>Bruce</span> Online Streaming Radio</span> <button className={isExpanded ? 'title-search__btn1' : 'title-search__btn'} onClick={handleExpand}> {isExpanded ? <IoCloseSharp style={{ fontSize: '22px', color: 'red' }} /> : <IoSearchSharp style={{ fontSize: '22px' }} />}</button>
+                    <span className="title-search1"> <span style={{ color: 'orangered' }}>Streaming</span> live from Ghana</span> <button className={isExpanded ? 'title-search__btn1' : 'title-search__btn'} onClick={handleExpand}> {isExpanded ? <IoCloseSharp style={{ fontSize: '22px', color: 'red' }} /> : <IoSearchSharp style={{ fontSize: '22px' }} />}</button>
                 </div>
 
                 <div className={isExpanded ? 'form-wrapper__content' : 'showform'} onChange={onInputChange}>
