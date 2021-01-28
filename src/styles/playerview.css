@@ -311,7 +311,6 @@
 		top: 18px;
 	}
 
-
 	.player-text__items span a {
 		overflow: hidden;
 		white-space: nowrap;
@@ -355,11 +354,12 @@
 	}
 }
 
-@media  screen and (min-width: 1920px) {
+
+@media screen and (min-width: 1280px) and (max-height: 720px) {
 	.player-wrapper {
-		top: initial;
-		right: initial;
-		transform: translate(0%, 0%);
-		margin: 2% auto;
+		width: 75%;
+		top: 50%;
+		right: 50%;
+		transform: translate(50%, -50%);
 	}
 }
